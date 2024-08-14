@@ -1,6 +1,5 @@
 function hello(){
   console.log("hello");
-  console.log(hello2("he"));
 }
 
 function goodbye(t){
