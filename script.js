@@ -5,4 +5,6 @@ function hello(){
 function goodbye(t){
   console.log("goodbye: " + t);
 }
-export { hello, goodbye};
+
+window.hello = hello;
+window.goodbye = goodbye;
